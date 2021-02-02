@@ -1,6 +1,6 @@
 from django.db import models
 
 # Create your models here.
-class Blog(models.Model):
-	blog_image = models.ImageField(upload_to='blog_images/')
-	blog_text = models.CharField(max_length=5000)
+class Posts(models.Model):
+	posts_image = models.ImageField(upload_to='posts_images/')
+	posts_text = models.CharField(max_length=5000)
